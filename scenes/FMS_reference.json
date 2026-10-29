@@ -1,0 +1,449 @@
+{
+  "context": {
+    "UnitOfMeasureScale": 1,
+    "Zup": false,
+    "RepoPath": ""
+  },
+  "scene": [
+    "building",
+    "track",
+    "SHUTTLE",
+    "LU1",
+    "LU2",
+    "MT1",
+    "MT2",
+    "MT3",
+    "RACK",
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+  ],
+  "assets": [
+    {
+      "id": "FMS",
+      "descr": "FMS 'reference' (fmssim)",
+      "type": "https://w3id.org/ontoeng/factory#ManufacturingSystem",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "building",
+      "descr": "Shop floor",
+      "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "track",
+      "descr": "Rail track of the shuttle (31 m)",
+      "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
+      "representations": [
+        {
+          "file": "transporter_track_31m_centred.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        15.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "placementRelTo": "building",
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "SHUTTLE",
+      "descr": "Rail-guided shuttle with telescopic fork",
+      "type": "https://w3id.org/ontoeng/factory#ProductionResource",
+      "representations": [
+        {
+          "file": "transporter_shuttle.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "LU1",
+      "descr": "Manual load/unload station LU1",
+      "type": "https://w3id.org/ontoeng/factory#ProductionResource",
+      "representations": [
+        {
+          "file": "lu_station_manual.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        2.0,
+        0.0,
+        -1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "placementRelTo": "building",
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "LU2",
+      "descr": "Manual load/unload station LU2",
+      "type": "https://w3id.org/ontoeng/factory#ProductionResource",
+      "representations": [
+        {
+          "file": "lu_station_manual.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        5.0,
+        0.0,
+        -1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "placementRelTo": "building",
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "MT1",
+      "descr": "Horizontal machining centre MT1 with 2-position APC",
+      "type": "https://w3id.org/ontoeng/factory#MachineTool",
+      "representations": [
+        {
+          "file": "hmc_2apc.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        12.5,
+        0.0,
+        -1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "placementRelTo": "building",
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "MT2",
+      "descr": "Horizontal machining centre MT2 with 2-position APC",
+      "type": "https://w3id.org/ontoeng/factory#MachineTool",
+      "representations": [
+        {
+          "file": "hmc_2apc.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        19.0,
+        0.0,
+        -1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "placementRelTo": "building",
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "MT3",
+      "descr": "Horizontal machining centre MT3 with 2-position APC",
+      "type": "https://w3id.org/ontoeng/factory#MachineTool",
+      "representations": [
+        {
+          "file": "hmc_2apc.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        25.5,
+        0.0,
+        -1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "placementRelTo": "building",
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "RACK",
+      "descr": "Pallet rack, 10 slots (R1 at x = 1.5 m)",
+      "type": "https://w3id.org/ontoeng/factory#StorageElement",
+      "representations": [
+        {
+          "file": "storage_1L_10S_3m_centred.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        15.0,
+        0.0,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        3.1416,
+        0.0
+      ],
+      "placementRelTo": "building",
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "P01",
+      "descr": "Pallet P01, fixture for part type A",
+      "type": "https://w3id.org/ontoeng/factory#Pallet",
+      "representations": [
+        {
+          "file": "pallet_A.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        1.5,
+        0.9,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "P02",
+      "descr": "Pallet P02, fixture for part type A",
+      "type": "https://w3id.org/ontoeng/factory#Pallet",
+      "representations": [
+        {
+          "file": "pallet_A.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        4.5,
+        0.9,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "P03",
+      "descr": "Pallet P03, fixture for part type A",
+      "type": "https://w3id.org/ontoeng/factory#Pallet",
+      "representations": [
+        {
+          "file": "pallet_A.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        7.5,
+        0.9,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "P04",
+      "descr": "Pallet P04, fixture for part type A",
+      "type": "https://w3id.org/ontoeng/factory#Pallet",
+      "representations": [
+        {
+          "file": "pallet_A.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        10.5,
+        0.9,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "P05",
+      "descr": "Pallet P05, fixture for part type B",
+      "type": "https://w3id.org/ontoeng/factory#Pallet",
+      "representations": [
+        {
+          "file": "pallet_B.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        13.5,
+        0.9,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "P06",
+      "descr": "Pallet P06, fixture for part type B",
+      "type": "https://w3id.org/ontoeng/factory#Pallet",
+      "representations": [
+        {
+          "file": "pallet_B.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        16.5,
+        0.9,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "P07",
+      "descr": "Pallet P07, fixture for part type B",
+      "type": "https://w3id.org/ontoeng/factory#Pallet",
+      "representations": [
+        {
+          "file": "pallet_B.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        19.5,
+        0.9,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    },
+    {
+      "id": "P08",
+      "descr": "Pallet P08, fixture for part type B",
+      "type": "https://w3id.org/ontoeng/factory#Pallet",
+      "representations": [
+        {
+          "file": "pallet_B.glb",
+          "unit": 1
+        }
+      ],
+      "position": [
+        22.5,
+        0.9,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assignmentTo": [
+        "FMS"
+      ]
+    }
+  ]
+}
