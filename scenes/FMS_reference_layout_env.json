@@ -104,6 +104,14 @@
       0.2,
       0.22,
       0.28
-    ]
+    ],
+    "ground": {
+      "texture": "textures/concrete.jpg",
+      "size": [
+        78,
+        28,
+        1
+      ]
+    }
   }
 }

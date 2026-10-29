@@ -459,7 +459,15 @@ def build_env(cfg):
             {"id": "light.p2", "type": "PointLight", "position": r3((xc + L / 3, 8, 0)), "intensity": 0.6},
         ],
         "shadows": {"darkness": 0.3, "bias": 1e-05, "environmentIntensity": 0.4},
-        "env": {"skyboxTexture": "textures/studio.env", "backgroundColor": [0.2, 0.22, 0.28]},
+        "env": {
+            "skyboxTexture": "textures/studio.env",
+            "backgroundColor": [0.2, 0.22, 0.28],
+            # VEB.js centres the ground on the origin at y = 0: size it to cover the plant
+            # with a 10 m margin (texture from the VEB.js server, tiled 6 x 6)
+            "ground": {"texture": "textures/concrete.jpg",
+                       "size": [2 * math.ceil(max(abs(min(xs)), abs(max(xs))) + 10),
+                                2 * math.ceil(RAIL_TO_STATION + WORK_DZ + 10), 1]},
+        },
     }
 
 

@@ -52,6 +52,10 @@ Built from `configs/reference.yaml` with the conventions of `SymPy-FMS/3Dmodels/
 | `RACK` | `storage_1L_10S_3m_centred.glb` | other side, z = +1.40, rotated 180°; slots R1…R10 at x = 1.5 … 28.5 |
 | `P01` … `P08` | `pallet_<type>.glb` | pallet bottom at 0.90 m |
 
+The environment (`_env.json`) adds a concrete floor (texture of the VEB.js server), centred
+on the origin and sized to cover the plant, four cameras (overview, along the rail, L/U
+operator, machines from behind) and three lights.
+
 Track and rack are re-centred because Babylon.js (left-handed) mirrors the X axis of glTF
 models: with the origin at the centre of a symmetric model the scene is the same in both
 conventions.
