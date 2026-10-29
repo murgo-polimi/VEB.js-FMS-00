@@ -39,6 +39,8 @@ RAIL_TO_STATION = 1.40   # rail axis -> station origin (m)
 TRANSFER_H = 0.90        # pallet bottom height at every transfer point (m)
 APC_DX = 0.55            # APC receivers at x -/+ 0.55 from the machine origin
 WORK_DZ = 1.75           # machine table behind the APC (towards -Z)
+TICK_MS = 100            # VEB.js plays the animation in 100 ms ticks and fires only the
+                         # events whose timestamp is a multiple of it
 TRACK_MARGIN = 2.0       # track extends 2 m beyond the first/last position
 
 FACTORY = "https://w3id.org/ontoeng/factory#"
@@ -463,7 +465,7 @@ def build_env(cfg):
 
 # ------------------------------------------------------------ animation -----
 def build_anim(cfg, builder, model, T0, T1, dt, scale, t_end):
-    ms = lambda t: str(int(round((t - T0) * 1000.0 / scale)))
+    ms = lambda t: str(int(round((t - T0) * 1000.0 / scale / TICK_MS)) * TICK_MS)
     show = lambda t, p: {"trigger": {"type": "timestamp", "data": ms(t)},
                          "event": {"type": "show", "position": r3(p), "rotation": [0, 0, 0]}}
     state = lambda t, d: {"trigger": {"type": "timestamp", "data": ms(t)},
@@ -526,7 +528,18 @@ def _states(log, T0, T1, state, fmt):
 
 
 def _sorted(acts):
-    return sorted(acts, key=lambda a: (int(a["trigger"]["data"]), a["event"]["type"] != "show"))
+    """Sort by time; keep only the last 'show' of each tick (they would overwrite each other)."""
+    acts = sorted(acts, key=lambda a: (int(a["trigger"]["data"]), a["event"]["type"] != "show"))
+    out, last_show = [], {}
+    for a in acts:
+        t = a["trigger"]["data"]
+        if a["event"]["type"] == "show":
+            if t in last_show:
+                out[last_show[t]] = a
+                continue
+            last_show[t] = len(out)
+        out.append(a)
+    return out
 
 
 def _frange(a, b, s):
@@ -549,7 +562,7 @@ def main(argv=None):
     ap.add_argument("--from-h", type=float, default=0.0, help="animation start (simulated hours)")
     ap.add_argument("--to-h", type=float, default=2.0, help="animation end (simulated hours)")
     ap.add_argument("--seed", type=int, default=None)
-    ap.add_argument("--dt", type=float, default=0.25, help="keyframe step during motions (simulated s)")
+    ap.add_argument("--dt", type=float, default=0.2, help="keyframe step during motions (simulated s)")
     ap.add_argument("--time-scale", type=float, default=1.0,
                     help="simulated seconds per animation second (1 = real time)")
     ap.add_argument("--set", action="append", default=[], help="override a config value, key=value")

@@ -68,9 +68,10 @@ conventions.
   `APC_CHANGE`, `BLOCKED`, `DOWN:<mode>` …), L/U stations, shuttle, pallets;
 * bookmarks every 15 min (every hour for windows longer than 3 h).
 
-Positions are `show` keyframes every 0.25 simulated s during motions (VEB.js does not
-interpolate between `show` events). Animation time = simulated time (1 s = 1 s); use the
-speed slider, or `--time-scale`.
+Positions are `show` keyframes every 0.2 simulated s during motions (VEB.js does not
+interpolate between `show` events). VEB.js plays the animation in 100 ms ticks and fires
+only events whose timestamp is a multiple of 100 ms, so all timestamps are rounded to that
+grid. Animation time = simulated time (1 s = 1 s); use the speed slider, or `--time-scale`.
 
 ## Regenerate / other runs
 
