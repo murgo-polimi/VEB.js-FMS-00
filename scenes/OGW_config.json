@@ -1,0 +1,28 @@
+{
+  "endpoint": {
+    "server": "https://digital-factory.io/fuseki",
+    "database": "VLFT"
+  },
+  "OWL": {
+    "sparqlDir": "https://difactory.github.io/repository/sparql/",
+    "sparqlDirTemplate": "https://difactory.github.io/repository/sparql/",
+    "defaultTbox": "https://w3id.org/ontoeng/factory",
+    "defaultNewGraph": "https://w3id.org/ontoeng/UC/"
+  },
+  "Apps": {
+    "flask": "https://sim.digital-factory.io",
+    "flask0": "https://digital-factory.io/flask"
+  },
+  "VEApp": {
+    "url": "https://digital-factory.io/vebjs",
+    "repoMod3d": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/models/MCM_FMS/",
+    "repoAnim": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/",
+    "inputbase": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/scenes/"
+  },
+  "MQTT": {
+    "broker": "wss://broker.emqx.io:8084/mqtt",
+    "sub_base_topic": "/DF",
+    "pub_base_topic": "/DF",
+    "QoS": 0
+  }
+}
