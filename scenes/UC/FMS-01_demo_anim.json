@@ -1,0 +1,441 @@
+{
+ "context": {
+  "assetTrail": false,
+  "UnitOfMeasureScale": 0.01,
+  "Zup": false,
+  "RepoAnim": ""
+ },
+ "nodes": [
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#MT1",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "1000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "MT1_startPalletChange"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#FMA.gate",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "1000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "FMA_gate_go_open"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#WASH.door",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "2000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "WASH_door_go_open"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.body",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "2000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_body_go_atMT2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#ST",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "3000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "ST_go_magA"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#MT3",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "5000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "MT3_startPalletChange"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#WASH.table",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "6000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "WASH_table_go_rotating"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.fork",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "8000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_fork_go_stationSide"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.fork",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "10000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_fork_go_centre"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#TMA.loaderX",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "12000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "TMA_loaderX_go_handoverMinus"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.body",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "12000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_body_go_atRackS20"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#TMA.loaderB",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "14000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "TMA_loaderB_go_minus"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#LU1.door",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "15000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "LU1_door_rotate"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#WASH.table",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "16000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "WASH_table_go_stopped"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.lift",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "17000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_lift_go_L3"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#WASH.door",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "18000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "WASH_door_go_closed"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#MT1",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "20000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "MT1_startOp"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.fork",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "20000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_fork_go_rackSide"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#TMA.loaderB",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "22000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "TMA_loaderB_go_centre"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.fork",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "22000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_fork_go_centre"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.lift",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "23000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_lift_go_L1"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#TMA.loaderX",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "24000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "TMA_loaderX_go_centre"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#ST",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "25000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "ST_go_rest"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#MT1",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "26000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "MT1_startToolChange"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#RGV.body",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "28000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "RGV_body_go_atLU1"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#FMA.gate",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "30000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "FMA_gate_go_closed"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#LU1.door",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "31000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "LU1_door_rotate"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#MT1",
+   "actions": [
+    {
+     "trigger": {
+      "type": "timestamp",
+      "data": "40000"
+     },
+     "event": {
+      "type": "sendEvent",
+      "data": "MT1_operationDone"
+     }
+    }
+   ]
+  }
+ ],
+ "sequences": [],
+ "bookmarks": [
+  {
+   "name": "start",
+   "timestamp": "0"
+  },
+  {
+   "name": "tool change MT1",
+   "timestamp": "26000"
+  }
+ ]
+}
