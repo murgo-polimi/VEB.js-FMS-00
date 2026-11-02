@@ -4,9 +4,9 @@
    "id": "camera.overview",
    "type": "FreeCamera",
    "position": [
-    13,
-    15,
-    21
+    10.5,
+    14,
+    19
    ],
    "rotation": [
     0.6,
@@ -19,9 +19,9 @@
    "id": "camera.operatorSide",
    "type": "FreeCamera",
    "position": [
-    13,
+    10.5,
     7,
-    -20
+    -19
    ],
    "rotation": [
     0.3,
@@ -34,7 +34,7 @@
    "id": "camera.MT1",
    "type": "FreeCamera",
    "position": [
-    15.5,
+    13.0,
     2.6,
     -3.7
    ],
@@ -49,7 +49,7 @@
    "id": "camera.magazineMT1",
    "type": "FreeCamera",
    "position": [
-    6.5,
+    5.8,
     5.5,
     1.5
    ],
@@ -118,7 +118,7 @@
   "ground": {
    "texture": "textures/concrete.jpg",
    "size": [
-    70,
+    60,
     30,
     1
    ]
