@@ -1,0 +1,127 @@
+{
+ "cameras": [
+  {
+   "id": "camera.overview",
+   "type": "FreeCamera",
+   "position": [
+    13,
+    15,
+    21
+   ],
+   "rotation": [
+    0.6,
+    3.141592653589793,
+    0
+   ],
+   "speed": 0.4
+  },
+  {
+   "id": "camera.operatorSide",
+   "type": "FreeCamera",
+   "position": [
+    13,
+    7,
+    -20
+   ],
+   "rotation": [
+    0.3,
+    0,
+    0
+   ],
+   "speed": 0.4
+  },
+  {
+   "id": "camera.MT1",
+   "type": "FreeCamera",
+   "position": [
+    15.5,
+    2.6,
+    -3.7
+   ],
+   "rotation": [
+    0.2,
+    -1.5707963267948966,
+    0
+   ],
+   "speed": 0.05
+  },
+  {
+   "id": "camera.magazineMT1",
+   "type": "FreeCamera",
+   "position": [
+    6.5,
+    5.5,
+    1.5
+   ],
+   "rotation": [
+    0.75,
+    3.141592653589793,
+    0
+   ],
+   "speed": 0.1
+  },
+  {
+   "id": "camera.rail",
+   "type": "FreeCamera",
+   "position": [
+    -4,
+    4.5,
+    0
+   ],
+   "rotation": [
+    0.22,
+    1.5707963267948966,
+    0
+   ],
+   "speed": 0.2
+  }
+ ],
+ "lights": [
+  {
+   "id": "light.hemi",
+   "type": "HemisphericLight",
+   "direction": [
+    0.3,
+    1,
+    0.2
+   ],
+   "intensity": 0.8
+  },
+  {
+   "id": "light.sun",
+   "type": "DirectionalLight",
+   "position": [
+    13,
+    30,
+    15
+   ],
+   "direction": [
+    -0.3,
+    -1,
+    -0.4
+   ],
+   "intensity": 1.5
+  }
+ ],
+ "shadows": {
+  "darkness": 0.3,
+  "bias": 1e-05,
+  "environmentIntensity": 0.4
+ },
+ "env": {
+  "skyboxTexture": "textures/studio.env",
+  "backgroundColor": [
+   0.2,
+   0.22,
+   0.28
+  ],
+  "ground": {
+   "texture": "textures/concrete.jpg",
+   "size": [
+    70,
+    30,
+    1
+   ]
+  }
+ }
+}

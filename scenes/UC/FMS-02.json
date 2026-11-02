@@ -1,0 +1,2018 @@
+{
+ "context": {
+  "UnitOfMeasureScale": 1,
+  "Zup": false,
+  "RepoPath": ""
+ },
+ "scene": [
+  "building",
+  "track1",
+  "track2",
+  "track3",
+  "track4",
+  "track5",
+  "RGV",
+  "RGV.body",
+  "RGV.lift",
+  "RGV.fork",
+  "RGV.palletPos",
+  "LU1",
+  "LU1.turntable",
+  "LU1.palletPos",
+  "LU1.door",
+  "MT1",
+  "MT1.apcChanger",
+  "MT1.apcPos1",
+  "MT1.apcPos2",
+  "MT1.apcDoorLeft",
+  "MT1.apcDoorRight",
+  "MT1.table",
+  "MT1.rotaryTable",
+  "MT1.palletClamp",
+  "MT1.workPos",
+  "MT1.column",
+  "MT1.spindleHead",
+  "MT1.spindle",
+  "MT1.tcDoor",
+  "MT1.tcAxial",
+  "MT1.tcArm",
+  "MT1.operatorDoor",
+  "MT1.magLoader",
+  "MT1.magLoaderZ",
+  "MT1.magLoaderY",
+  "MT1.magDrawer",
+  "MT2",
+  "MT2.apcChanger",
+  "MT2.apcPos1",
+  "MT2.apcPos2",
+  "MT2.apcDoorLeft",
+  "MT2.apcDoorRight",
+  "MT2.table",
+  "MT2.rotaryTable",
+  "MT2.palletClamp",
+  "MT2.workPos",
+  "MT2.column",
+  "MT2.spindleHead",
+  "MT2.spindle",
+  "MT2.tcDoor",
+  "MT2.tcAxial",
+  "MT2.tcArm",
+  "MT2.operatorDoor",
+  "MT2.magLoader",
+  "MT2.magLoaderZ",
+  "MT2.magLoaderY",
+  "MT2.magDrawer",
+  "RACK",
+  "RACK.L1_S1",
+  "RACK.L1_S2",
+  "RACK.L1_S3",
+  "RACK.L1_S4",
+  "RACK.L1_S5",
+  "RACK.L1_S6",
+  "RACK.L1_S7",
+  "RACK.L1_S8",
+  "RACK.L1_S9",
+  "RACK.L1_S10",
+  "RACK.L2_S1",
+  "RACK.L2_S2",
+  "RACK.L2_S3",
+  "RACK.L2_S4",
+  "RACK.L2_S5",
+  "RACK.L2_S6",
+  "RACK.L2_S7",
+  "RACK.L2_S8",
+  "RACK.L2_S9",
+  "RACK.L2_S10",
+  "P01",
+  "P02",
+  "P03",
+  "P04",
+  "P05",
+  "P06",
+  "P07",
+  "P08",
+  "P09",
+  "P10",
+  "P11",
+  "P12"
+ ],
+ "assets": [
+  {
+   "id": "FMS",
+   "descr": "FMS-02: 2 Clock 1200 EVO 4-axis with side tool magazines, 1 L/U station, 2-level pallet rack, RGV stacker",
+   "type": "https://w3id.org/ontoeng/factory#ManufacturingSystem",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "id": "building",
+   "descr": "Shop floor",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "id": "track1",
+   "descr": "RGV track, 6 m",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
+   "position": [
+    -2.5,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_track_6m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "track2",
+   "descr": "RGV track, 6 m",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
+   "position": [
+    3.5,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_track_6m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "track3",
+   "descr": "RGV track, 6 m",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
+   "position": [
+    9.5,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_track_6m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "track4",
+   "descr": "RGV track, 6 m",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
+   "position": [
+    15.5,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_track_6m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "track5",
+   "descr": "RGV track, 6 m",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
+   "position": [
+    21.5,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_track_6m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "RGV",
+   "descr": "RGV stacker (origin = rail start)",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_stacker.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "RGV.body",
+   "descr": "RGV body (x)",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    1.5,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_stacker.glb#rgv_body",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RGV",
+   "parentObject": "RGV"
+  },
+  {
+   "id": "RGV.lift",
+   "descr": "RGV lift (y)",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.78,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_stacker.glb#rgv_lift",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RGV.body",
+   "parentObject": "RGV.body"
+  },
+  {
+   "id": "RGV.fork",
+   "descr": "RGV telescopic fork (z)",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "rgv_stacker.glb#rgv_fork",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RGV.lift",
+   "parentObject": "RGV.lift"
+  },
+  {
+   "id": "RGV.palletPos",
+   "descr": "pallet on the fork",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    0.12,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RGV.fork",
+   "parentObject": "RGV.fork"
+  },
+  {
+   "id": "LU1",
+   "descr": "LU1 - L/U station with turntable and half-cylinder door",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    1.5,
+    0.0,
+    -1.4
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "lu_station_cyl.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "LU1.turntable",
+   "descr": "L/U turntable",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.78,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "lu_station_cyl.glb#lu_turntable",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "LU1",
+   "parentObject": "LU1"
+  },
+  {
+   "id": "LU1.palletPos",
+   "descr": "pallet position",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPosition",
+   "position": [
+    0.0,
+    0.12,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "LU1.turntable",
+   "parentObject": "LU1.turntable"
+  },
+  {
+   "id": "LU1.door",
+   "descr": "half-cylinder door",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.35,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "lu_station_cyl.glb#lu_door",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "LU1",
+   "parentObject": "LU1"
+  },
+  {
+   "id": "MT1",
+   "descr": "MT1 - Clock 1200 EVO 4-axis with side tool magazine (664 pockets)",
+   "type": "https://w3id.org/ontoeng/factory#MachineTool",
+   "position": [
+    12.5,
+    0.0,
+    -1.4
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "MT1.apcChanger",
+   "descr": "apcChanger",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.22,
+    -0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#apc_turntable",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.apcPos1",
+   "descr": "apcPos1",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    0.68,
+    0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "MT1.apcChanger",
+   "parentObject": "MT1.apcChanger"
+  },
+  {
+   "id": "MT1.apcPos2",
+   "descr": "apcPos2",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    0.68,
+    -0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "MT1.apcChanger",
+   "parentObject": "MT1.apcChanger"
+  },
+  {
+   "id": "MT1.apcDoorLeft",
+   "descr": "apcDoorLeft",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.25,
+    -0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#apc_door_left",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.apcDoorRight",
+   "descr": "apcDoorRight",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.25,
+    -0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#apc_door_right",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.table",
+   "descr": "table",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.72,
+    -2.305
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#table",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.rotaryTable",
+   "descr": "rotaryTable",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.02,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#rotary_table",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.table",
+   "parentObject": "MT1.table"
+  },
+  {
+   "id": "MT1.palletClamp",
+   "descr": "palletClamp",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.06,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#pallet_clamp",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.rotaryTable",
+   "parentObject": "MT1.rotaryTable"
+  },
+  {
+   "id": "MT1.workPos",
+   "descr": "workPos",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    0.11,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "MT1.palletClamp",
+   "parentObject": "MT1.palletClamp"
+  },
+  {
+   "id": "MT1.column",
+   "descr": "column",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    1.0,
+    -4.205
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#column",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.spindleHead",
+   "descr": "spindleHead",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.18,
+    0.65
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#spindle_head",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.column",
+   "parentObject": "MT1.column"
+  },
+  {
+   "id": "MT1.spindle",
+   "descr": "spindle",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.54
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#spindle",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.spindleHead",
+   "parentObject": "MT1.spindleHead"
+  },
+  {
+   "id": "MT1.tcDoor",
+   "descr": "tcDoor",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -1.56,
+    3.0,
+    -2.85
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#tc_door",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.tcAxial",
+   "descr": "tcAxial",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -1.69,
+    2.18,
+    -2.975
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#tc_axial",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.tcArm",
+   "descr": "tcArm",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#tc_arm",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.tcAxial",
+   "parentObject": "MT1.tcAxial"
+  },
+  {
+   "id": "MT1.operatorDoor",
+   "descr": "operatorDoor",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    1.6,
+    1.6,
+    -2.44
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#operator_door",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.magLoader",
+   "descr": "magLoader",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -3.82,
+    3.38,
+    -2.225
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#mag_loader",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT1.magLoaderZ",
+   "descr": "magLoaderZ",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    -1.2,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#mag_loader_z",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.magLoader",
+   "parentObject": "MT1.magLoader"
+  },
+  {
+   "id": "MT1.magLoaderY",
+   "descr": "magLoaderY",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.44,
+    0.0,
+    -0.3
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#mag_loader_y",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.magLoaderZ",
+   "parentObject": "MT1.magLoaderZ"
+  },
+  {
+   "id": "MT1.magDrawer",
+   "descr": "magDrawer",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -4.02,
+    0.46,
+    -1.525
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#mag_load_drawer",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT2",
+   "descr": "MT2 - Clock 1200 EVO 4-axis with side tool magazine (664 pockets)",
+   "type": "https://w3id.org/ontoeng/factory#MachineTool",
+   "position": [
+    24.5,
+    0.0,
+    -1.4
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "MT2.apcChanger",
+   "descr": "apcChanger",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.22,
+    -0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#apc_turntable",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.apcPos1",
+   "descr": "apcPos1",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    0.68,
+    0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "MT2.apcChanger",
+   "parentObject": "MT2.apcChanger"
+  },
+  {
+   "id": "MT2.apcPos2",
+   "descr": "apcPos2",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    0.68,
+    -0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "MT2.apcChanger",
+   "parentObject": "MT2.apcChanger"
+  },
+  {
+   "id": "MT2.apcDoorLeft",
+   "descr": "apcDoorLeft",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.25,
+    -0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#apc_door_left",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.apcDoorRight",
+   "descr": "apcDoorRight",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.25,
+    -0.555
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#apc_door_right",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.table",
+   "descr": "table",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.72,
+    -2.305
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#table",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.rotaryTable",
+   "descr": "rotaryTable",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.02,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#rotary_table",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.table",
+   "parentObject": "MT2.table"
+  },
+  {
+   "id": "MT2.palletClamp",
+   "descr": "palletClamp",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.06,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#pallet_clamp",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.rotaryTable",
+   "parentObject": "MT2.rotaryTable"
+  },
+  {
+   "id": "MT2.workPos",
+   "descr": "workPos",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    0.11,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "MT2.palletClamp",
+   "parentObject": "MT2.palletClamp"
+  },
+  {
+   "id": "MT2.column",
+   "descr": "column",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    1.0,
+    -4.205
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#column",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.spindleHead",
+   "descr": "spindleHead",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.18,
+    0.65
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#spindle_head",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.column",
+   "parentObject": "MT2.column"
+  },
+  {
+   "id": "MT2.spindle",
+   "descr": "spindle",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.54
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#spindle",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.spindleHead",
+   "parentObject": "MT2.spindleHead"
+  },
+  {
+   "id": "MT2.tcDoor",
+   "descr": "tcDoor",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -1.56,
+    3.0,
+    -2.85
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#tc_door",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.tcAxial",
+   "descr": "tcAxial",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -1.69,
+    2.18,
+    -2.975
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#tc_axial",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.tcArm",
+   "descr": "tcArm",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#tc_arm",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.tcAxial",
+   "parentObject": "MT2.tcAxial"
+  },
+  {
+   "id": "MT2.operatorDoor",
+   "descr": "operatorDoor",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    1.6,
+    1.6,
+    -2.44
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#operator_door",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.magLoader",
+   "descr": "magLoader",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -3.82,
+    3.38,
+    -2.225
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#mag_loader",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.magLoaderZ",
+   "descr": "magLoaderZ",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    -1.2,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#mag_loader_z",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.magLoader",
+   "parentObject": "MT2.magLoader"
+  },
+  {
+   "id": "MT2.magLoaderY",
+   "descr": "magLoaderY",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.44,
+    0.0,
+    -0.3
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#mag_loader_y",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.magLoaderZ",
+   "parentObject": "MT2.magLoaderZ"
+  },
+  {
+   "id": "MT2.magDrawer",
+   "descr": "magDrawer",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -4.02,
+    0.46,
+    -1.525
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "clock1200evo_fms_4ax_sidemag_blue.glb#mag_load_drawer",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
+  },
+  {
+   "id": "RACK",
+   "descr": "pallet rack 2 levels x 10 slots",
+   "type": "https://w3id.org/ontoeng/factory#StorageElement",
+   "position": [
+    13.2,
+    0.0,
+    1.4
+   ],
+   "rotation": [
+    0.0,
+    3.1416,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "lp_rack_2L_10S.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "RACK.L1_S1",
+   "descr": "rack level 1 slot 1",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S2",
+   "descr": "rack level 1 slot 2",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    1.3,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S3",
+   "descr": "rack level 1 slot 3",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    2.6,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S4",
+   "descr": "rack level 1 slot 4",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    3.9,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S5",
+   "descr": "rack level 1 slot 5",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    5.2,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S6",
+   "descr": "rack level 1 slot 6",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    6.5,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S7",
+   "descr": "rack level 1 slot 7",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    7.8,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S8",
+   "descr": "rack level 1 slot 8",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    9.1,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S9",
+   "descr": "rack level 1 slot 9",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    10.4,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L1_S10",
+   "descr": "rack level 1 slot 10",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    11.7,
+    0.9,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S1",
+   "descr": "rack level 2 slot 1",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    0.0,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S2",
+   "descr": "rack level 2 slot 2",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    1.3,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S3",
+   "descr": "rack level 2 slot 3",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    2.6,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S4",
+   "descr": "rack level 2 slot 4",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    3.9,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S5",
+   "descr": "rack level 2 slot 5",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    5.2,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S6",
+   "descr": "rack level 2 slot 6",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    6.5,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S7",
+   "descr": "rack level 2 slot 7",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    7.8,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S8",
+   "descr": "rack level 2 slot 8",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    9.1,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S9",
+   "descr": "rack level 2 slot 9",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    10.4,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "RACK.L2_S10",
+   "descr": "rack level 2 slot 10",
+   "type": "https://w3id.org/ontoeng/factory#PalletPosition",
+   "position": [
+    11.7,
+    2.3,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "placementRelTo": "RACK",
+   "parentObject": "RACK"
+  },
+  {
+   "id": "P01",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.apcPos2"
+  },
+  {
+   "id": "P02",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S4"
+  },
+  {
+   "id": "P03",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S3"
+  },
+  {
+   "id": "P04",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.workPos"
+  },
+  {
+   "id": "P05",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.workPos"
+  },
+  {
+   "id": "P06",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S3"
+  },
+  {
+   "id": "P07",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S1"
+  },
+  {
+   "id": "P08",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S4"
+  },
+  {
+   "id": "P09",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S2"
+  },
+  {
+   "id": "P10",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S1"
+  },
+  {
+   "id": "P11",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.apcPos2"
+  },
+  {
+   "id": "P12",
+   "descr": "pallet 630 x 630",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_630x630.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S2"
+  }
+ ]
+}
