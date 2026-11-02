@@ -1,0 +1,19 @@
+{
+  "endpoint": {
+    "server": "https://digital-factory.io/fuseki",
+    "database": "VLFT"
+  },
+  "repo": {
+    "model3d": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/models/MCM_FMS/",
+    "animation": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/",
+    "sparqlDir": "https://difactory.github.io/repository/sparql/"
+  },
+  "MQTT": {
+    "broker": "wss://broker.emqx.io:8084/mqtt",
+    "base_topic": "/DF",
+    "QoS": 0
+  },
+  "controller": {
+    "loopInterval": 50
+  }
+}

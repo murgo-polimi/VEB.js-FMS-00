@@ -1,0 +1,127 @@
+{
+  "cameras": [
+    {
+      "id": "camera.overview",
+      "type": "FreeCamera",
+      "position": [
+        2350,
+        1600,
+        2600
+      ],
+      "rotation": [
+        0.55,
+        3.141592653589793,
+        0
+      ],
+      "speed": 30
+    },
+    {
+      "id": "camera.operatorSide",
+      "type": "FreeCamera",
+      "position": [
+        2350,
+        900,
+        -2000
+      ],
+      "rotation": [
+        0.32,
+        0,
+        0
+      ],
+      "speed": 20
+    },
+    {
+      "id": "camera.rail",
+      "type": "FreeCamera",
+      "position": [
+        -500,
+        450,
+        0
+      ],
+      "rotation": [
+        0.22,
+        1.5707963267948966,
+        0
+      ],
+      "speed": 20
+    },
+    {
+      "id": "camera.MT1",
+      "type": "FreeCamera",
+      "position": [
+        1396,
+        600,
+        -1300
+      ],
+      "rotation": [
+        0.3,
+        0.35,
+        0
+      ],
+      "speed": 10
+    },
+    {
+      "id": "camera.LU",
+      "type": "FreeCamera",
+      "position": [
+        350,
+        330,
+        -800
+      ],
+      "rotation": [
+        0.25,
+        0.2,
+        0
+      ],
+      "speed": 10
+    }
+  ],
+  "lights": [
+    {
+      "id": "light.hemi",
+      "type": "HemisphericLight",
+      "direction": [
+        0.3,
+        1,
+        0.2
+      ],
+      "intensity": 0.8
+    },
+    {
+      "id": "light.sun",
+      "type": "DirectionalLight",
+      "position": [
+        2400,
+        3000,
+        1500
+      ],
+      "direction": [
+        -0.3,
+        -1,
+        -0.4
+      ],
+      "intensity": 1.5
+    }
+  ],
+  "shadows": {
+    "darkness": 0.3,
+    "bias": 1e-05,
+    "environmentIntensity": 0.4
+  },
+  "env": {
+    "skyboxTexture": "textures/studio.env",
+    "backgroundColor": [
+      0.2,
+      0.22,
+      0.28
+    ],
+    "ground": {
+      "texture": "textures/concrete.jpg",
+      "size": [
+        11000,
+        2200,
+        1
+      ]
+    }
+  }
+}
