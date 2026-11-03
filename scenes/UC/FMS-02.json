@@ -94,22 +94,46 @@
   "RACK.L2_S16",
   "RACK.L2_S17",
   "P01",
+  "P01.partsIn",
+  "P01.partsOut",
   "P02",
+  "P02.partsIn",
+  "P02.partsOut",
   "P03",
+  "P03.partsIn",
+  "P03.partsOut",
   "P04",
+  "P04.partsIn",
+  "P04.partsOut",
   "P05",
+  "P05.partsIn",
+  "P05.partsOut",
   "P06",
+  "P06.partsIn",
+  "P06.partsOut",
   "P07",
+  "P07.partsIn",
+  "P07.partsOut",
   "P08",
+  "P08.partsIn",
+  "P08.partsOut",
   "P09",
+  "P09.partsIn",
+  "P09.partsOut",
   "P10",
+  "P10.partsIn",
+  "P10.partsOut",
   "P11",
-  "P12"
+  "P11.partsIn",
+  "P11.partsOut",
+  "P12",
+  "P12.partsIn",
+  "P12.partsOut"
  ],
  "assets": [
   {
    "id": "FMS",
-   "descr": "FMS-02: 2 Clock 1200 EVO 4-axis (white) with 2-module side tool magazines, 1 L/U station, 2-level pallet rack along the track, RGV stacker",
+   "descr": "FMS-02: 2 HMC X1200 4-axis (white) with 2-module side tool magazines, 1 L/U station, 2-level pallet rack along the track, RGV stacker",
    "type": "https://w3id.org/ontoeng/factory#ManufacturingSystem",
    "position": [
     0.0,
@@ -363,7 +387,7 @@
   },
   {
    "id": "MT1",
-   "descr": "MT1 - Clock 1200 EVO 4-axis with 2-module side tool magazine",
+   "descr": "MT1 - HMC X1200 4-axis with 2-module side tool magazine",
    "type": "https://w3id.org/ontoeng/factory#MachineTool",
    "position": [
     10.0,
@@ -377,7 +401,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb",
      "unit": 1
     }
    ],
@@ -402,7 +426,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#apc_turntable",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_turntable",
      "unit": 1
     }
    ],
@@ -459,7 +483,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#apc_door_left",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_door_left",
      "unit": 1
     }
    ],
@@ -482,7 +506,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#apc_door_right",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_door_right",
      "unit": 1
     }
    ],
@@ -505,7 +529,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#table",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#table",
      "unit": 1
     }
    ],
@@ -528,7 +552,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#rotary_table",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#rotary_table",
      "unit": 1
     }
    ],
@@ -551,7 +575,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#pallet_clamp",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#pallet_clamp",
      "unit": 1
     }
    ],
@@ -591,7 +615,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#column",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#column",
      "unit": 1
     }
    ],
@@ -614,7 +638,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#spindle_head",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#spindle_head",
      "unit": 1
     }
    ],
@@ -637,7 +661,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#spindle",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#spindle",
      "unit": 1
     }
    ],
@@ -660,7 +684,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#tc_door",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_door",
      "unit": 1
     }
    ],
@@ -683,7 +707,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#tc_axial",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_axial",
      "unit": 1
     }
    ],
@@ -706,7 +730,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#tc_arm",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_arm",
      "unit": 1
     }
    ],
@@ -729,7 +753,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#operator_door",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#operator_door",
      "unit": 1
     }
    ],
@@ -752,7 +776,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#mag_loader",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader",
      "unit": 1
     }
    ],
@@ -775,7 +799,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#mag_loader_z",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader_z",
      "unit": 1
     }
    ],
@@ -798,7 +822,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#mag_loader_y",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader_y",
      "unit": 1
     }
    ],
@@ -821,7 +845,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#mag_load_drawer",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_load_drawer",
      "unit": 1
     }
    ],
@@ -830,7 +854,7 @@
   },
   {
    "id": "MT2",
-   "descr": "MT2 - Clock 1200 EVO 4-axis with 2-module side tool magazine",
+   "descr": "MT2 - HMC X1200 4-axis with 2-module side tool magazine",
    "type": "https://w3id.org/ontoeng/factory#MachineTool",
    "position": [
     19.5,
@@ -844,7 +868,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb",
      "unit": 1
     }
    ],
@@ -869,7 +893,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#apc_turntable",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_turntable",
      "unit": 1
     }
    ],
@@ -926,7 +950,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#apc_door_left",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_door_left",
      "unit": 1
     }
    ],
@@ -949,7 +973,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#apc_door_right",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_door_right",
      "unit": 1
     }
    ],
@@ -972,7 +996,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#table",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#table",
      "unit": 1
     }
    ],
@@ -995,7 +1019,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#rotary_table",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#rotary_table",
      "unit": 1
     }
    ],
@@ -1018,7 +1042,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#pallet_clamp",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#pallet_clamp",
      "unit": 1
     }
    ],
@@ -1058,7 +1082,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#column",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#column",
      "unit": 1
     }
    ],
@@ -1081,7 +1105,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#spindle_head",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#spindle_head",
      "unit": 1
     }
    ],
@@ -1104,7 +1128,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#spindle",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#spindle",
      "unit": 1
     }
    ],
@@ -1127,7 +1151,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#tc_door",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_door",
      "unit": 1
     }
    ],
@@ -1150,7 +1174,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#tc_axial",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_axial",
      "unit": 1
     }
    ],
@@ -1173,7 +1197,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#tc_arm",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_arm",
      "unit": 1
     }
    ],
@@ -1196,7 +1220,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#operator_door",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#operator_door",
      "unit": 1
     }
    ],
@@ -1219,7 +1243,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#mag_loader",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader",
      "unit": 1
     }
    ],
@@ -1242,7 +1266,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#mag_loader_z",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader_z",
      "unit": 1
     }
    ],
@@ -1265,7 +1289,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#mag_loader_y",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader_y",
      "unit": 1
     }
    ],
@@ -1288,7 +1312,7 @@
    ],
    "representations": [
     {
-     "file": "clock1200evo_fms_4ax_sidemag2.glb#mag_load_drawer",
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_load_drawer",
      "unit": 1
     }
    ],
@@ -1311,7 +1335,7 @@
    ],
    "representations": [
     {
-     "file": "lp_rack_2L_17S.glb",
+     "file": "pallet_rack_2L_17S.glb",
      "unit": 1
     }
    ],
@@ -1900,7 +1924,7 @@
   },
   {
    "id": "P01",
-   "descr": "pallet 630 x 630",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase10",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
     0.0,
@@ -1914,126 +1938,16 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
-     "unit": 1
-    }
-   ],
-   "placementRelTo": "MT1.workPos"
-  },
-  {
-   "id": "P02",
-   "descr": "pallet 630 x 630",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
-   "position": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "rotation": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "representations": [
-    {
-     "file": "pallet_630x630.glb",
-     "unit": 1
-    }
-   ],
-   "placementRelTo": "MT1.apcPos2"
-  },
-  {
-   "id": "P03",
-   "descr": "pallet 630 x 630",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
-   "position": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "rotation": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "representations": [
-    {
-     "file": "pallet_630x630.glb",
-     "unit": 1
-    }
-   ],
-   "placementRelTo": "RACK.L2_S5"
-  },
-  {
-   "id": "P04",
-   "descr": "pallet 630 x 630",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
-   "position": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "rotation": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "representations": [
-    {
-     "file": "pallet_630x630.glb",
-     "unit": 1
-    }
-   ],
-   "placementRelTo": "RACK.L1_S6"
-  },
-  {
-   "id": "P05",
-   "descr": "pallet 630 x 630",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
-   "position": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "rotation": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "representations": [
-    {
-     "file": "pallet_630x630.glb",
-     "unit": 1
-    }
-   ],
-   "placementRelTo": "RACK.L2_S6"
-  },
-  {
-   "id": "P06",
-   "descr": "pallet 630 x 630",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
-   "position": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "rotation": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "representations": [
-    {
-     "file": "pallet_630x630.glb",
+     "file": "pallet_part00_phase10.glb",
      "unit": 1
     }
    ],
    "placementRelTo": "RACK.L1_S5"
   },
   {
-   "id": "P07",
-   "descr": "pallet 630 x 630",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "id": "P01.partsIn",
+   "descr": "part00 parts on the phase10 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
     0.0,
     0.0,
@@ -2046,15 +1960,39 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
+     "file": "pallet_part00_phase10_parts_in.glb",
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S9"
+   "placementRelTo": "P01",
+   "parentObject": "P01"
   },
   {
-   "id": "P08",
-   "descr": "pallet 630 x 630",
+   "id": "P01.partsOut",
+   "descr": "part00 parts on the phase10 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P01",
+   "parentObject": "P01"
+  },
+  {
+   "id": "P02",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase10",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
     0.0,
@@ -2068,15 +2006,61 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
+     "file": "pallet_part00_phase10.glb",
      "unit": 1
     }
    ],
    "placementRelTo": "MT2.workPos"
   },
   {
-   "id": "P09",
-   "descr": "pallet 630 x 630",
+   "id": "P02.partsIn",
+   "descr": "part00 parts on the phase10 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P02",
+   "parentObject": "P02"
+  },
+  {
+   "id": "P02.partsOut",
+   "descr": "part00 parts on the phase10 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P02",
+   "parentObject": "P02"
+  },
+  {
+   "id": "P03",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase10",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
     0.0,
@@ -2090,15 +2074,469 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
+     "file": "pallet_part00_phase10.glb",
      "unit": 1
     }
    ],
-   "placementRelTo": "MT2.apcPos1"
+   "placementRelTo": "MT2.apcPos2"
+  },
+  {
+   "id": "P03.partsIn",
+   "descr": "part00 parts on the phase10 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P03",
+   "parentObject": "P03"
+  },
+  {
+   "id": "P03.partsOut",
+   "descr": "part00 parts on the phase10 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P03",
+   "parentObject": "P03"
+  },
+  {
+   "id": "P04",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase10",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.workPos"
+  },
+  {
+   "id": "P04.partsIn",
+   "descr": "part00 parts on the phase10 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P04",
+   "parentObject": "P04"
+  },
+  {
+   "id": "P04.partsOut",
+   "descr": "part00 parts on the phase10 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P04",
+   "parentObject": "P04"
+  },
+  {
+   "id": "P05",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase20",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.apcPos1"
+  },
+  {
+   "id": "P05.partsIn",
+   "descr": "part00 parts on the phase20 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P05",
+   "parentObject": "P05"
+  },
+  {
+   "id": "P05.partsOut",
+   "descr": "part00 parts on the phase20 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P05",
+   "parentObject": "P05"
+  },
+  {
+   "id": "P06",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase20",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S7"
+  },
+  {
+   "id": "P06.partsIn",
+   "descr": "part00 parts on the phase20 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P06",
+   "parentObject": "P06"
+  },
+  {
+   "id": "P06.partsOut",
+   "descr": "part00 parts on the phase20 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P06",
+   "parentObject": "P06"
+  },
+  {
+   "id": "P07",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase20",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S6"
+  },
+  {
+   "id": "P07.partsIn",
+   "descr": "part00 parts on the phase20 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P07",
+   "parentObject": "P07"
+  },
+  {
+   "id": "P07.partsOut",
+   "descr": "part00 parts on the phase20 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P07",
+   "parentObject": "P07"
+  },
+  {
+   "id": "P08",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase20",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S7"
+  },
+  {
+   "id": "P08.partsIn",
+   "descr": "part00 parts on the phase20 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P08",
+   "parentObject": "P08"
+  },
+  {
+   "id": "P08.partsOut",
+   "descr": "part00 parts on the phase20 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P08",
+   "parentObject": "P08"
+  },
+  {
+   "id": "P09",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase30",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S4"
+  },
+  {
+   "id": "P09.partsIn",
+   "descr": "part00 parts on the phase30 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P09",
+   "parentObject": "P09"
+  },
+  {
+   "id": "P09.partsOut",
+   "descr": "part00 parts on the phase30 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P09",
+   "parentObject": "P09"
   },
   {
    "id": "P10",
-   "descr": "pallet 630 x 630",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase30",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
     0.0,
@@ -2112,15 +2550,61 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
+     "file": "pallet_part00_phase30.glb",
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S3"
+   "placementRelTo": "RACK.L2_S4"
+  },
+  {
+   "id": "P10.partsIn",
+   "descr": "part00 parts on the phase30 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P10",
+   "parentObject": "P10"
+  },
+  {
+   "id": "P10.partsOut",
+   "descr": "part00 parts on the phase30 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P10",
+   "parentObject": "P10"
   },
   {
    "id": "P11",
-   "descr": "pallet 630 x 630",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase30",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
     0.0,
@@ -2134,15 +2618,61 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
+     "file": "pallet_part00_phase30.glb",
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S1"
+   "placementRelTo": "RACK.L1_S6"
+  },
+  {
+   "id": "P11.partsIn",
+   "descr": "part00 parts on the phase30 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P11",
+   "parentObject": "P11"
+  },
+  {
+   "id": "P11.partsOut",
+   "descr": "part00 parts on the phase30 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P11",
+   "parentObject": "P11"
   },
   {
    "id": "P12",
-   "descr": "pallet 630 x 630",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase30",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
     0.0,
@@ -2156,11 +2686,57 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
+     "file": "pallet_part00_phase30.glb",
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S2"
+   "placementRelTo": "LU1.palletPos"
+  },
+  {
+   "id": "P12.partsIn",
+   "descr": "part00 parts on the phase30 fixture, as loaded",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_in.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P12",
+   "parentObject": "P12"
+  },
+  {
+   "id": "P12.partsOut",
+   "descr": "part00 parts on the phase30 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "P12",
+   "parentObject": "P12"
   }
  ]
 }

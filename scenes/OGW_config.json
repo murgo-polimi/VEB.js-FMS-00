@@ -15,7 +15,7 @@
   },
   "VEApp": {
     "url": "https://digital-factory.io/vebjs",
-    "repoMod3d": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/models/MCM_FMS/",
+    "repoMod3d": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/models/FMS/GLB/",
     "repoAnim": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/",
     "inputbase": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/scenes/"
   },

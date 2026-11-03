@@ -67,7 +67,7 @@
    ]
   },
   {
-   "id": "https://w3id.org/ontoeng/UC/FMS-01#ST",
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#TG",
    "actions": [
     {
      "trigger": {
@@ -76,7 +76,7 @@
      },
      "event": {
       "type": "sendEvent",
-      "data": "ST_go_magA"
+      "data": "TG_go_magA"
      }
     }
    ]
@@ -337,7 +337,7 @@
    ]
   },
   {
-   "id": "https://w3id.org/ontoeng/UC/FMS-01#ST",
+   "id": "https://w3id.org/ontoeng/UC/FMS-01#TG",
    "actions": [
     {
      "trigger": {
@@ -346,7 +346,7 @@
      },
      "event": {
       "type": "sendEvent",
-      "data": "ST_go_rest"
+      "data": "TG_go_rest"
      }
     }
    ]
