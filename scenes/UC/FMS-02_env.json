@@ -130,7 +130,7 @@
     1,
     0.2
    ],
-   "intensity": 0.8
+   "intensity": 0.6
   },
   {
    "id": "light.sun",
@@ -145,13 +145,28 @@
     -1,
     -0.4
    ],
-   "intensity": 1.5
+   "intensity": 0.7
+  },
+  {
+   "id": "light.fill",
+   "type": "DirectionalLight",
+   "position": [
+    8,
+    20,
+    -25
+   ],
+   "direction": [
+    0.3,
+    -0.6,
+    0.6
+   ],
+   "intensity": 0.35
   }
  ],
  "shadows": {
-  "darkness": 0.3,
+  "darkness": 0.6,
   "bias": 1e-05,
-  "environmentIntensity": 0.4
+  "environmentIntensity": 1.0
  },
  "env": {
   "skyboxTexture": "textures/studio.env",
