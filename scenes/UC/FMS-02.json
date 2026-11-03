@@ -167,6 +167,21 @@
   "K12",
   "K13",
   "K14",
+  "fence.station1",
+  "fence.station2",
+  "fence.station3",
+  "fence.station4",
+  "fence.back",
+  "fence.start",
+  "fence.end",
+  "fence.MT1.mag1",
+  "fence.MT1.mag2",
+  "fence.MT1.mag3",
+  "fence.MT1.mag4",
+  "fence.MT2.mag1",
+  "fence.MT2.mag2",
+  "fence.MT2.mag3",
+  "fence.MT2.mag4",
   "MT1.toolB",
   "MT1.toolP",
   "MT2.toolB",
@@ -258,7 +273,7 @@
    "descr": "RGV body (x)",
    "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    1.5,
+    0.5,
     0.0,
     0.0
    ],
@@ -344,7 +359,7 @@
    "descr": "LU1 - L/U station with turntable and half-cylinder door",
    "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    1.5,
+    0.5,
     0.0,
     -1.4
    ],
@@ -432,7 +447,7 @@
    "descr": "MT1 - HMC X1200 4-axis with 2-module side tool magazine, right-hand (operator side toward +x)",
    "type": "https://w3id.org/ontoeng/factory#MachineTool",
    "position": [
-    10.0,
+    8.7,
     0.0,
     -1.4
    ],
@@ -945,7 +960,7 @@
    "descr": "MT2 - HMC X1200 4-axis with 2-module side tool magazine, left-hand (operator side toward -x)",
    "type": "https://w3id.org/ontoeng/factory#MachineTool",
    "position": [
-    19.5,
+    14.9,
     0.0,
     -1.4
    ],
@@ -2280,7 +2295,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "LU1.palletPos"
+   "placementRelTo": "RACK.L1_S12"
   },
   {
    "id": "P04.partsIn",
@@ -2688,7 +2703,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT1.workPos"
+   "placementRelTo": "RACK.L1_S10"
   },
   {
    "id": "P10.partsIn",
@@ -2756,7 +2771,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT2.workPos"
+   "placementRelTo": "MT2.apcPos1"
   },
   {
    "id": "P11.partsIn",
@@ -2824,7 +2839,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT1.apcPos2"
+   "placementRelTo": "MT1.apcPos1"
   },
   {
    "id": "P12.partsIn",
@@ -2892,7 +2907,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT2.apcPos1"
+   "placementRelTo": "RACK.L1_S14"
   },
   {
    "id": "P13.partsIn",
@@ -3648,6 +3663,381 @@
    ],
    "placementRelTo": "RACK.L1_S2",
    "parentObject": "RACK.L1_S2"
+  },
+  {
+   "id": "fence.station1",
+   "descr": "safety fence 2.2 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -2.6,
+    0.0,
+    -0.74
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_2.2m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.station2",
+   "descr": "safety fence 5.5 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    1.62,
+    0.0,
+    -0.74
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_5.5m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.station3",
+   "descr": "safety fence 3.04 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    10.28,
+    0.0,
+    -0.74
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_3.04m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.station4",
+   "descr": "safety fence 6.82 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    16.48,
+    0.0,
+    -0.74
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_6.82m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.back",
+   "descr": "safety fence 25.9 m with gate",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    23.3,
+    0.0,
+    2.45
+   ],
+   "rotation": [
+    0.0,
+    -3.1416,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_25.9m_gate.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.start",
+   "descr": "safety fence 3.19 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -2.6,
+    0.0,
+    2.45
+   ],
+   "rotation": [
+    0.0,
+    1.5708,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_3.19m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.end",
+   "descr": "safety fence 3.19 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    23.3,
+    0.0,
+    -0.74
+   ],
+   "rotation": [
+    0.0,
+    -1.5708,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_3.19m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.MT1.mag1",
+   "descr": "safety fence 2.36 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    2.14,
+    0.0,
+    -3.1
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_2.36m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.MT1.mag2",
+   "descr": "safety fence 0.87 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    4.86,
+    0.0,
+    -3.1
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_0.87m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.MT1.mag3",
+   "descr": "safety fence 1.8 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    2.14,
+    0.0,
+    -3.1
+   ],
+   "rotation": [
+    0.0,
+    1.5708,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_1.8m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.MT1.mag4",
+   "descr": "safety fence 4.16 m with gate",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    2.14,
+    0.0,
+    -4.9
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_4.16m_gate.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.MT2.mag1",
+   "descr": "safety fence 2.36 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    21.46,
+    0.0,
+    -3.1
+   ],
+   "rotation": [
+    0.0,
+    -3.1416,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_2.36m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.MT2.mag2",
+   "descr": "safety fence 0.87 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    18.74,
+    0.0,
+    -3.1
+   ],
+   "rotation": [
+    0.0,
+    -3.1416,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_0.87m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.MT2.mag3",
+   "descr": "safety fence 1.8 m",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    21.46,
+    0.0,
+    -3.1
+   ],
+   "rotation": [
+    0.0,
+    1.5708,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_1.8m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
+  },
+  {
+   "id": "fence.MT2.mag4",
+   "descr": "safety fence 4.16 m with gate",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    21.46,
+    0.0,
+    -4.9
+   ],
+   "rotation": [
+    0.0,
+    -3.1416,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "fence_4.16m_gate.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "MT1.toolB",

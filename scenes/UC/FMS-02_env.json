@@ -34,7 +34,7 @@
    "id": "camera.corridor",
    "type": "FreeCamera",
    "position": [
-    14.75,
+    11.8,
     3.0,
     -8.5
    ],
@@ -49,7 +49,7 @@
    "id": "camera.MT1",
    "type": "FreeCamera",
    "position": [
-    13.0,
+    12.4,
     2.6,
     -3.7
    ],
@@ -64,7 +64,7 @@
    "id": "camera.MT2",
    "type": "FreeCamera",
    "position": [
-    16.5,
+    11.200000000000001,
     2.6,
     -3.7
    ],
@@ -79,7 +79,7 @@
    "id": "camera.magazineMT1",
    "type": "FreeCamera",
    "position": [
-    5.8,
+    4.499999999999999,
     5.5,
     1.5
    ],
@@ -94,7 +94,7 @@
    "id": "camera.magazineMT2",
    "type": "FreeCamera",
    "position": [
-    23.7,
+    19.1,
     5.5,
     1.5
    ],
