@@ -15,9 +15,9 @@
   },
   "VEApp": {
     "url": "https://digital-factory.io/vebjs",
-    "repoMod3d": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/models/FMS/GLB/",
-    "repoAnim": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/",
-    "inputbase": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/scenes/"
+    "repoMod3d": "https://murgo-polimi.github.io/VEB.js-FMS-00/models/FMS/GLB/",
+    "repoAnim": "https://murgo-polimi.github.io/VEB.js-FMS-00/",
+    "inputbase": "https://murgo-polimi.github.io/VEB.js-FMS-00/scenes/"
   },
   "MQTT": {
     "broker": "wss://broker.emqx.io:8084/mqtt",

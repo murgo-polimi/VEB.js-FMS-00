@@ -4,8 +4,8 @@
     "database": "VLFT"
   },
   "repo": {
-    "model3d": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/models/FMS/GLB/",
-    "animation": "https://raw.githubusercontent.com/murgo-polimi/VEB.js-FMS-00/main/",
+    "model3d": "https://murgo-polimi.github.io/VEB.js-FMS-00/models/FMS/GLB/",
+    "animation": "https://murgo-polimi.github.io/VEB.js-FMS-00/",
     "sparqlDir": "https://difactory.github.io/repository/sparql/"
   },
   "MQTT": {
