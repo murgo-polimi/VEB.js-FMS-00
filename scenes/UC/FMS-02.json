@@ -2099,7 +2099,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RGV.palletPos"
+   "placementRelTo": "LU1.palletPos"
   },
   {
    "id": "P03.partsIn",
