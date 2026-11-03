@@ -31,6 +31,21 @@
    "speed": 0.4
   },
   {
+   "id": "camera.corridor",
+   "type": "FreeCamera",
+   "position": [
+    14.75,
+    3.0,
+    -8.5
+   ],
+   "rotation": [
+    0.15,
+    0,
+    0
+   ],
+   "speed": 0.1
+  },
+  {
    "id": "camera.MT1",
    "type": "FreeCamera",
    "position": [
@@ -46,10 +61,40 @@
    "speed": 0.05
   },
   {
+   "id": "camera.MT2",
+   "type": "FreeCamera",
+   "position": [
+    16.5,
+    2.6,
+    -3.7
+   ],
+   "rotation": [
+    0.2,
+    1.5707963267948966,
+    0
+   ],
+   "speed": 0.05
+  },
+  {
    "id": "camera.magazineMT1",
    "type": "FreeCamera",
    "position": [
     5.8,
+    5.5,
+    1.5
+   ],
+   "rotation": [
+    0.75,
+    3.141592653589793,
+    0
+   ],
+   "speed": 0.1
+  },
+  {
+   "id": "camera.magazineMT2",
+   "type": "FreeCamera",
+   "position": [
+    23.7,
     5.5,
     1.5
    ],

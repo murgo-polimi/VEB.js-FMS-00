@@ -37,6 +37,8 @@
   "MT1.magLoaderZ",
   "MT1.magLoaderY",
   "MT1.magDrawer",
+  "MT1.spindleTool",
+  "MT1.tcToolNew",
   "MT2",
   "MT2.apcChanger",
   "MT2.apcPos1",
@@ -58,6 +60,8 @@
   "MT2.magLoaderZ",
   "MT2.magLoaderY",
   "MT2.magDrawer",
+  "MT2.spindleTool",
+  "MT2.tcToolNew",
   "RACK",
   "RACK.L1_S1",
   "RACK.L1_S2",
@@ -144,12 +148,29 @@
   "P17",
   "P17.partsIn",
   "P17.partsOut",
-  "E01",
-  "E02",
-  "E03",
-  "E04",
-  "E05",
-  "E06"
+  "K01",
+  "K02",
+  "K03",
+  "K03.partsOut",
+  "K04",
+  "K04.partsOut",
+  "K05",
+  "K06",
+  "K07",
+  "K07.partsOut",
+  "K08",
+  "K08.partsOut",
+  "K09",
+  "K10",
+  "K11",
+  "K11.partsOut",
+  "K12",
+  "K13",
+  "K14",
+  "MT1.toolB",
+  "MT1.toolP",
+  "MT2.toolB",
+  "MT2.toolP"
  ],
  "assets": [
   {
@@ -408,7 +429,7 @@
   },
   {
    "id": "MT1",
-   "descr": "MT1 - HMC X1200 4-axis with 2-module side tool magazine",
+   "descr": "MT1 - HMC X1200 4-axis with 2-module side tool magazine, right-hand (operator side toward +x)",
    "type": "https://w3id.org/ontoeng/factory#MachineTool",
    "position": [
     10.0,
@@ -874,8 +895,54 @@
    "parentObject": "MT1"
   },
   {
+   "id": "MT1.spindleTool",
+   "descr": "spindleTool",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.04
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#spindle_tool",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.spindle",
+   "parentObject": "MT1.spindle"
+  },
+  {
+   "id": "MT1.tcToolNew",
+   "descr": "tcToolNew",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    -1.09,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_tool_new",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1.tcArm",
+   "parentObject": "MT1.tcArm"
+  },
+  {
    "id": "MT2",
-   "descr": "MT2 - HMC X1200 4-axis with 2-module side tool magazine",
+   "descr": "MT2 - HMC X1200 4-axis with 2-module side tool magazine, left-hand (operator side toward -x)",
    "type": "https://w3id.org/ontoeng/factory#MachineTool",
    "position": [
     19.5,
@@ -889,7 +956,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb",
      "unit": 1
     }
    ],
@@ -914,7 +981,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_turntable",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#apc_turntable",
      "unit": 1
     }
    ],
@@ -971,7 +1038,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_door_left",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#apc_door_left",
      "unit": 1
     }
    ],
@@ -994,7 +1061,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#apc_door_right",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#apc_door_right",
      "unit": 1
     }
    ],
@@ -1017,7 +1084,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#table",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#table",
      "unit": 1
     }
    ],
@@ -1040,7 +1107,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#rotary_table",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#rotary_table",
      "unit": 1
     }
    ],
@@ -1063,7 +1130,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#pallet_clamp",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#pallet_clamp",
      "unit": 1
     }
    ],
@@ -1103,7 +1170,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#column",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#column",
      "unit": 1
     }
    ],
@@ -1126,7 +1193,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#spindle_head",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#spindle_head",
      "unit": 1
     }
    ],
@@ -1149,7 +1216,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#spindle",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#spindle",
      "unit": 1
     }
    ],
@@ -1161,7 +1228,7 @@
    "descr": "tcDoor",
    "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    -1.56,
+    1.56,
     3.0,
     -2.85
    ],
@@ -1172,7 +1239,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_door",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#tc_door",
      "unit": 1
     }
    ],
@@ -1184,7 +1251,7 @@
    "descr": "tcAxial",
    "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    -1.69,
+    1.69,
     2.18,
     -2.975
    ],
@@ -1195,7 +1262,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_axial",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#tc_axial",
      "unit": 1
     }
    ],
@@ -1218,7 +1285,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#tc_arm",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#tc_arm",
      "unit": 1
     }
    ],
@@ -1230,7 +1297,7 @@
    "descr": "operatorDoor",
    "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    1.6,
+    -1.6,
     1.6,
     -2.44
    ],
@@ -1241,7 +1308,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#operator_door",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#operator_door",
      "unit": 1
     }
    ],
@@ -1253,7 +1320,7 @@
    "descr": "magLoader",
    "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    -3.82,
+    3.82,
     3.38,
     -2.225
    ],
@@ -1264,7 +1331,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#mag_loader",
      "unit": 1
     }
    ],
@@ -1287,7 +1354,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader_z",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#mag_loader_z",
      "unit": 1
     }
    ],
@@ -1299,7 +1366,7 @@
    "descr": "magLoaderY",
    "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    0.44,
+    -0.44,
     0.0,
     -0.3
    ],
@@ -1310,7 +1377,7 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_loader_y",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#mag_loader_y",
      "unit": 1
     }
    ],
@@ -1322,7 +1389,7 @@
    "descr": "magDrawer",
    "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    -4.02,
+    4.02,
     0.46,
     -1.525
    ],
@@ -1333,12 +1400,58 @@
    ],
    "representations": [
     {
-     "file": "hmc_x1200_4ax_white_right_sidemag2.glb#mag_load_drawer",
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#mag_load_drawer",
      "unit": 1
     }
    ],
    "placementRelTo": "MT2",
    "parentObject": "MT2"
+  },
+  {
+   "id": "MT2.spindleTool",
+   "descr": "spindleTool",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.04
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#spindle_tool",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.spindle",
+   "parentObject": "MT2.spindle"
+  },
+  {
+   "id": "MT2.tcToolNew",
+   "descr": "tcToolNew",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    1.09,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "hmc_x1200_4ax_white_left_sidemag2.glb#tc_tool_new",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2.tcArm",
+   "parentObject": "MT2.tcArm"
   },
   {
    "id": "RACK",
@@ -1963,7 +2076,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S16"
+   "placementRelTo": "RACK.L1_S9"
   },
   {
    "id": "P01.partsIn",
@@ -2031,7 +2144,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT1.workPos"
+   "placementRelTo": "RACK.L2_S16"
   },
   {
    "id": "P02.partsIn",
@@ -2099,7 +2212,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "LU1.palletPos"
+   "placementRelTo": "RACK.L1_S3"
   },
   {
    "id": "P03.partsIn",
@@ -2167,7 +2280,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT2.apcPos2"
+   "placementRelTo": "LU1.palletPos"
   },
   {
    "id": "P04.partsIn",
@@ -2235,7 +2348,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S17"
+   "placementRelTo": "RACK.L2_S11"
   },
   {
    "id": "P05.partsIn",
@@ -2303,7 +2416,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S17"
+   "placementRelTo": "RACK.L2_S14"
   },
   {
    "id": "P06.partsIn",
@@ -2371,7 +2484,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S14"
+   "placementRelTo": "RACK.L1_S5"
   },
   {
    "id": "P07.partsIn",
@@ -2439,7 +2552,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S14"
+   "placementRelTo": "RACK.L2_S9"
   },
   {
    "id": "P08.partsIn",
@@ -2507,7 +2620,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S13"
+   "placementRelTo": "RACK.L2_S12"
   },
   {
    "id": "P09.partsIn",
@@ -2575,7 +2688,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S13"
+   "placementRelTo": "MT1.workPos"
   },
   {
    "id": "P10.partsIn",
@@ -2643,7 +2756,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S12"
+   "placementRelTo": "MT2.workPos"
   },
   {
    "id": "P11.partsIn",
@@ -2711,7 +2824,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S12"
+   "placementRelTo": "MT1.apcPos2"
   },
   {
    "id": "P12.partsIn",
@@ -2779,7 +2892,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S11"
+   "placementRelTo": "MT2.apcPos1"
   },
   {
    "id": "P13.partsIn",
@@ -2915,7 +3028,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S10"
+   "placementRelTo": "RACK.L1_S4"
   },
   {
    "id": "P15.partsIn",
@@ -2983,7 +3096,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT2.workPos"
+   "placementRelTo": "RACK.L1_S8"
   },
   {
    "id": "P16.partsIn",
@@ -3051,7 +3164,7 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S16"
+   "placementRelTo": "RACK.L2_S13"
   },
   {
    "id": "P17.partsIn",
@@ -3100,7 +3213,375 @@
    "parentObject": "P17"
   },
   {
-   "id": "E01",
+   "id": "K01",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase10, no parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S17",
+   "parentObject": "RACK.L1_S17"
+  },
+  {
+   "id": "K02",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase10, no parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S7",
+   "parentObject": "RACK.L1_S7"
+  },
+  {
+   "id": "K03",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase10, machined parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S6",
+   "parentObject": "RACK.L2_S6"
+  },
+  {
+   "id": "K03.partsOut",
+   "descr": "part00 parts on the phase10 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "K03",
+   "parentObject": "K03"
+  },
+  {
+   "id": "K04",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase10, machined parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S15",
+   "parentObject": "RACK.L1_S15"
+  },
+  {
+   "id": "K04.partsOut",
+   "descr": "part00 parts on the phase10 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase10_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "K04",
+   "parentObject": "K04"
+  },
+  {
+   "id": "K05",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase20, no parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S16",
+   "parentObject": "RACK.L1_S16"
+  },
+  {
+   "id": "K06",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase20, no parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S7",
+   "parentObject": "RACK.L2_S7"
+  },
+  {
+   "id": "K07",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase20, machined parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S13",
+   "parentObject": "RACK.L1_S13"
+  },
+  {
+   "id": "K07.partsOut",
+   "descr": "part00 parts on the phase20 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "K07",
+   "parentObject": "K07"
+  },
+  {
+   "id": "K08",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase20, machined parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S15",
+   "parentObject": "RACK.L2_S15"
+  },
+  {
+   "id": "K08.partsOut",
+   "descr": "part00 parts on the phase20 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase20_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "K08",
+   "parentObject": "K08"
+  },
+  {
+   "id": "K09",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase30, no parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L1_S6",
+   "parentObject": "RACK.L1_S6"
+  },
+  {
+   "id": "K10",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase30, no parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S10",
+   "parentObject": "RACK.L2_S10"
+  },
+  {
+   "id": "K11",
+   "descr": "pallet 630 x 630 with the part00 fixture for phase30, machined parts (parked in the rack)",
+   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "RACK.L2_S3",
+   "parentObject": "RACK.L2_S3"
+  },
+  {
+   "id": "K11.partsOut",
+   "descr": "part00 parts on the phase30 fixture, machined",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "pallet_part00_phase30_parts_out.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "K11",
+   "parentObject": "K11"
+  },
+  {
+   "id": "K12",
    "descr": "pallet 630 x 630 without fixture (spare, parked in the rack)",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
@@ -3119,11 +3600,11 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S1",
-   "parentObject": "RACK.L2_S1"
+   "placementRelTo": "RACK.L2_S8",
+   "parentObject": "RACK.L2_S8"
   },
   {
-   "id": "E02",
+   "id": "K13",
    "descr": "pallet 630 x 630 without fixture (spare, parked in the rack)",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
@@ -3142,34 +3623,11 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S1",
-   "parentObject": "RACK.L1_S1"
+   "placementRelTo": "RACK.L2_S5",
+   "parentObject": "RACK.L2_S5"
   },
   {
-   "id": "E03",
-   "descr": "pallet 630 x 630 without fixture (spare, parked in the rack)",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
-   "position": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "rotation": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "representations": [
-    {
-     "file": "pallet_630x630.glb",
-     "unit": 1
-    }
-   ],
-   "placementRelTo": "RACK.L2_S2",
-   "parentObject": "RACK.L2_S2"
-  },
-  {
-   "id": "E04",
+   "id": "K14",
    "descr": "pallet 630 x 630 without fixture (spare, parked in the rack)",
    "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
    "position": [
@@ -3192,11 +3650,11 @@
    "parentObject": "RACK.L1_S2"
   },
   {
-   "id": "E05",
-   "descr": "pallet 630 x 630 without fixture (spare, parked in the rack)",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "id": "MT1.toolB",
+   "descr": "tool in gripper B of the MT1 tool changer",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
-    0.0,
+    -1.09,
     0.0,
     0.0
    ],
@@ -3207,19 +3665,42 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
+     "file": "tool_holder.glb",
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S3",
-   "parentObject": "RACK.L2_S3"
+   "placementRelTo": "MT1.tcArm",
+   "parentObject": "MT1.tcArm"
   },
   {
-   "id": "E06",
-   "descr": "pallet 630 x 630 without fixture (spare, parked in the rack)",
-   "type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
+   "id": "MT1.toolP",
+   "descr": "tool in a pocket of the MT1 side magazine",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
    "position": [
+    -4.375,
+    2.65,
+    -2.975
+   ],
+   "rotation": [
     0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "tool_holder.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT1",
+   "parentObject": "MT1"
+  },
+  {
+   "id": "MT2.toolB",
+   "descr": "tool in gripper B of the MT2 tool changer",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    1.09,
     0.0,
     0.0
    ],
@@ -3230,12 +3711,35 @@
    ],
    "representations": [
     {
-     "file": "pallet_630x630.glb",
+     "file": "tool_holder.glb",
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S3",
-   "parentObject": "RACK.L1_S3"
+   "placementRelTo": "MT2.tcArm",
+   "parentObject": "MT2.tcArm"
+  },
+  {
+   "id": "MT2.toolP",
+   "descr": "tool in a pocket of the MT2 side magazine",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    4.895,
+    2.65,
+    -2.975
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "tool_holder.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "MT2",
+   "parentObject": "MT2"
   }
  ]
 }
