@@ -219,6 +219,328 @@
    ]
   },
   {
+   "id": "hall",
+   "descr": "Machining hall 36 x 24 m, eaves 9 m, 10 t bridge crane",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuildingElementProxy",
+   "position": [
+    10.0,
+    0.0,
+    -1.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "building",
+   "parentObject": "building"
+  },
+  {
+   "id": "hall.floor",
+   "descr": "floor slab with walkway markings",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcSlab",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#floor",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.structure",
+   "descr": "steel portal frames, purlins, crane runway",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBeam",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#structure",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.wallFront",
+   "descr": "front wall (+z), sectional door and personnel door",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcWall",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#wall_front",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.wallBack",
+   "descr": "back wall (-z), personnel door",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcWall",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#wall_back",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.wallWest",
+   "descr": "west gable (-x)",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcWall",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#wall_west",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.wallEast",
+   "descr": "east gable (+x), sectional door",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcWall",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#wall_east",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.roof",
+   "descr": "duo-pitch roof with ridge skylight",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcRoof",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#roof",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.lighting",
+   "descr": "high-bay lights",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcLightFixture",
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#lighting",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.doorFront",
+   "descr": "sectional door 4.0 x 4.5 m (y +4.5 = open)",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcDoor",
+   "position": [
+    -8.5,
+    0.0,
+    11.82
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#door_front",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.doorEast",
+   "descr": "sectional door 4.0 x 4.5 m (y +4.5 = open)",
+   "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcDoor",
+   "position": [
+    17.82,
+    0.0,
+    7.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#door_east",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.crane",
+   "descr": "10 t bridge crane (x)",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    12.0,
+    6.8,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#crane_bridge",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall",
+   "parentObject": "hall"
+  },
+  {
+   "id": "hall.crane.trolley",
+   "descr": "crane trolley (z)",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    1.05,
+    -3.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#crane_trolley",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall.crane",
+   "parentObject": "hall.crane"
+  },
+  {
+   "id": "hall.crane.hook",
+   "descr": "crane hook (y)",
+   "type": "https://w3id.org/ontoeng/factory#Artifact",
+   "position": [
+    0.0,
+    -1.85,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "representations": [
+    {
+     "file": "industrial_building_36x24m.glb#crane_hook",
+     "unit": 1
+    }
+   ],
+   "placementRelTo": "hall.crane.trolley",
+   "parentObject": "hall.crane.trolley"
+  },
+  {
    "id": "track1",
    "descr": "RGV track, 25.2 m",
    "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement",
