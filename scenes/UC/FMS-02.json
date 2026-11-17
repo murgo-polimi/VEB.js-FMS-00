@@ -2413,7 +2413,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S9"
+   "placementRelTo": "RACK.L1_S9",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P01.partsIn",
@@ -2481,7 +2484,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S16"
+   "placementRelTo": "RACK.L2_S16",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P02.partsIn",
@@ -2549,7 +2555,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S3"
+   "placementRelTo": "RACK.L1_S3",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P03.partsIn",
@@ -2617,7 +2626,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S12"
+   "placementRelTo": "RACK.L1_S12",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P04.partsIn",
@@ -2685,7 +2697,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S11"
+   "placementRelTo": "RACK.L2_S11",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P05.partsIn",
@@ -2753,7 +2768,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S14"
+   "placementRelTo": "RACK.L2_S14",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P06.partsIn",
@@ -2821,7 +2839,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S5"
+   "placementRelTo": "RACK.L1_S5",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P07.partsIn",
@@ -2889,7 +2910,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S9"
+   "placementRelTo": "RACK.L2_S9",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P08.partsIn",
@@ -2957,7 +2981,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S12"
+   "placementRelTo": "RACK.L2_S12",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P09.partsIn",
@@ -3025,7 +3052,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S10"
+   "placementRelTo": "RACK.L1_S10",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P10.partsIn",
@@ -3093,7 +3123,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT2.apcPos1"
+   "placementRelTo": "MT2.apcPos1",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P11.partsIn",
@@ -3161,7 +3194,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "MT1.apcPos1"
+   "placementRelTo": "MT1.apcPos1",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P12.partsIn",
@@ -3229,7 +3265,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S14"
+   "placementRelTo": "RACK.L1_S14",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P13.partsIn",
@@ -3297,7 +3336,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S11"
+   "placementRelTo": "RACK.L1_S11",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P14.partsIn",
@@ -3365,7 +3407,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S4"
+   "placementRelTo": "RACK.L1_S4",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P15.partsIn",
@@ -3433,7 +3478,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L1_S8"
+   "placementRelTo": "RACK.L1_S8",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P16.partsIn",
@@ -3501,7 +3549,10 @@
      "unit": 1
     }
    ],
-   "placementRelTo": "RACK.L2_S13"
+   "placementRelTo": "RACK.L2_S13",
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "P17.partsIn",
@@ -3570,7 +3621,9 @@
     }
    ],
    "placementRelTo": "RACK.L1_S17",
-   "parentObject": "RACK.L1_S17"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K02",
@@ -3593,7 +3646,9 @@
     }
    ],
    "placementRelTo": "RACK.L1_S7",
-   "parentObject": "RACK.L1_S7"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K03",
@@ -3616,7 +3671,9 @@
     }
    ],
    "placementRelTo": "RACK.L2_S6",
-   "parentObject": "RACK.L2_S6"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K03.partsOut",
@@ -3662,7 +3719,9 @@
     }
    ],
    "placementRelTo": "RACK.L1_S15",
-   "parentObject": "RACK.L1_S15"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K04.partsOut",
@@ -3708,7 +3767,9 @@
     }
    ],
    "placementRelTo": "RACK.L1_S16",
-   "parentObject": "RACK.L1_S16"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K06",
@@ -3731,7 +3792,9 @@
     }
    ],
    "placementRelTo": "RACK.L2_S7",
-   "parentObject": "RACK.L2_S7"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K07",
@@ -3754,7 +3817,9 @@
     }
    ],
    "placementRelTo": "RACK.L1_S13",
-   "parentObject": "RACK.L1_S13"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K07.partsOut",
@@ -3800,7 +3865,9 @@
     }
    ],
    "placementRelTo": "RACK.L2_S15",
-   "parentObject": "RACK.L2_S15"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K08.partsOut",
@@ -3846,7 +3913,9 @@
     }
    ],
    "placementRelTo": "RACK.L1_S6",
-   "parentObject": "RACK.L1_S6"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K10",
@@ -3869,7 +3938,9 @@
     }
    ],
    "placementRelTo": "RACK.L2_S10",
-   "parentObject": "RACK.L2_S10"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K11",
@@ -3892,7 +3963,9 @@
     }
    ],
    "placementRelTo": "RACK.L2_S3",
-   "parentObject": "RACK.L2_S3"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K11.partsOut",
@@ -3938,7 +4011,9 @@
     }
    ],
    "placementRelTo": "RACK.L2_S8",
-   "parentObject": "RACK.L2_S8"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K13",
@@ -3961,7 +4036,9 @@
     }
    ],
    "placementRelTo": "RACK.L2_S5",
-   "parentObject": "RACK.L2_S5"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "K14",
@@ -3984,7 +4061,9 @@
     }
    ],
    "placementRelTo": "RACK.L1_S2",
-   "parentObject": "RACK.L1_S2"
+   "assignmentTo": [
+    "FMS"
+   ]
   },
   {
    "id": "fence.station1",
